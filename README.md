@@ -1,3 +1,12 @@
+Installation:
+
+1. git clone wtl
+
+2. cd wtl/AppWiz/
+
+3. run setup.js
+
+
 
 Windows Template Library - WTL Version 9.1            (build 5321 final) 2015-11-17
 
