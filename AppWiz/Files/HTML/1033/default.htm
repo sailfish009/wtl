@@ -18,7 +18,8 @@
 		<!-- This closing tag is here only to avoid security warning -->
 		</OBJECT>
 		<SCRIPT>
-		var strURL = window.external.FindSymbol("PRODUCT_INSTALLATION_DIR");
+		var strURL = "file:///";
+		strURL += window.external.FindSymbol("PRODUCT_INSTALLATION_DIR");
 		strURL += "VCWizards/";
 		strURL += window.external.GetHostLocale();
 		strURL += "/NewStyles.css";
