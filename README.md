@@ -1,23 +1,20 @@
-Installation:
+    Installation:
 
-1. git clone wtl
+    1. git clone wtl
 
-2. cd wtl/AppWiz/
+    2. cd wtl/AppWiz/
 
-3. run setup.js
+    3. run setup.js
 
-NOTE:
+    NOTE:
 
-// WTL9 works fine with vs2017 express (with WDK 7.1)
+    // WTL9 works fine with vs2017 express (with WDK 7.1)
 
-// add following 2 lines to your project
+    // add following 2 lines to your project source code
 
-#pragma comment(lib, "legacy_stdio_definitions.lib")
+    #pragma comment(lib, "legacy_stdio_definitions.lib")
 
-#pragma comment(lib, "atlthunk.lib")
-
-
-
+    #pragma comment(lib, "atlthunk.lib")
 
 
 
