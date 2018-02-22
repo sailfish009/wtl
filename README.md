@@ -11,6 +11,8 @@
     // WTL9 works fine with vs2017 express (with WDK 7.1)
 
     // add following 2 lines to your project source code
+    
+    // add WTL/include to your project directory (no need to run setup.js)
 
     #pragma comment(lib, "legacy_stdio_definitions.lib")
 
