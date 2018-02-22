@@ -9,9 +9,11 @@ Installation:
 NOTE:
 
 // WTL9 works fine with vs2017 express (with WDK 7.1)
+
 // add following 2 lines to your project
 
 #pragma comment(lib, "legacy_stdio_definitions.lib")
+
 #pragma comment(lib, "atlthunk.lib")
 
 
