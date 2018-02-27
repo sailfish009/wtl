@@ -1,6 +1,6 @@
     Installation:
 
-    1. git clone wtl
+    1. git clone https://github.com/sailfish009/wtl
 
     2. cd wtl/AppWiz/
 
