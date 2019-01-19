@@ -9,9 +9,12 @@
 #pragma once
 
 // Change these values to use different versions
-#define WINVER		0x0400
-#define _WIN32_IE	0x0500
+#define WINVER		0x0A00
+#define _WIN32_IE	0x0A00
 #define _RICHEDIT_VER	0x0100
+
+#define NTDDI_VERSION 0x06030000
+#define _WIN32_WINNT  0x0A00
 
 #include <atlbase.h>
 #include <atlapp.h>
