@@ -16,7 +16,9 @@
        #define NTDDI_VERSION 0x06030000
        #define _WIN32_WINNT  0x0A00
 
-    4. Properties -> VC++ Directories -> Include Directories
+    4. Properties -> General -> Target Platform (win8.1 -> Windows 10)
+
+    5. Properties -> VC++ Directories -> Include Directories
     
        // try to change directories match with your ide environment (mine win10, vs2017 pro)
        C:\WTL\Include
@@ -24,7 +26,7 @@
        C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt
        C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared
        
-    5. try to build WTLExplorer and see if it built fine and run.
+    6. try to build WTLExplorer and see if it built fine and run.
 
     NOTE:
 
