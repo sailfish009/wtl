@@ -1,14 +1,34 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     Installation:
 
     1. git clone https://github.com/sailfish009/wtl
+    
+    2. copy include directory to other place to easy to remember ( EX): C:\WTL\include)
+    
+    3. try to build WTLExplorer(wtl\Samples\WTLExplorer) with your visual studio ide.
+    
+       // try to change below macros to your windows os version
+       stdafx.h:
+       #define WINVER		0x0A00
+       #define _WIN32_IE	0x0A00
+       #define _RICHEDIT_VER	0x0100
+       #define NTDDI_VERSION 0x06030000
+       #define _WIN32_WINNT  0x0A00
 
-    2. cd wtl/AppWiz/
-
-    3. run setup.js
+    4. Properties -> VC++ Directories -> Include Directories
+    
+       // try to change directories match with your ide environment (mine win10, vs2017 pro)
+       C:\WTL\Include
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt
+       C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared
+       
+    5. try to build WTLExplorer and see if it built fine and run.
 
     NOTE:
 
-    // WTL9 works fine with vs2017 express (with WDK 7.1)
+    // WTL9 works fine with vs2017 express (with WDK 7.1) or professional 
 
     // add following 2 lines to your project source code
     
@@ -18,6 +38,8 @@
 
     #pragma comment(lib, "atlthunk.lib")
 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 Windows Template Library - WTL Version 9.1            (build 5321 final) 2015-11-17
